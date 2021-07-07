@@ -1,1 +1,1 @@
-# webpack-template
+# medicine-web-site

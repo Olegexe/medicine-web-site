@@ -1,20 +1,18 @@
 //Font
-$default-font: montserrat-regular, sans-serif;
-$default-bold-font: montserrat-bold, sans-serif;
-
+$default-font: "TT Hoves", sans-serif;
+$secondary-font: "Gotham Pro", sans-serif;
 
 //Colors
-$darkShade100: #1F2041;
-$darkShade75: rgba($darkShade100, .75);
-$darkShade50: rgba($darkShade100, .50);
-$darkShade25: rgba($darkShade100, .25);
-$darkShade10: rgba($darkShade100, .10);
-$darkShade5: rgba($darkShade100, .5);
-$purple: #BC9CFF;
-$green: #6FCF97;
+$color-lightest-grey: #f9f9f9;
+$color-light-grey: #f3f5fa;
+$color-grey: #8093ac;
+$color-dark-grey: #32495e;
+$color-red: #e95258;
 
-$cosmos: linear-gradient(180deg, $purple 0%, #8BA4F9 100%);
-$green-blue: linear-gradient(180deg, $green 0%, #66D2EA 100%);
+//Gradients
+
+$gradient-primery-color: linear-gradient(#99dbff 100%, #1d44a0 100%);
+$gradient-primery-color: linear-gradient(#00d1ff 100%, #222ae2 100%);
 
 //Size
 

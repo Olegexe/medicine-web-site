@@ -1,13 +1,36 @@
-@import './utils/fonts.scss';
-@import './utils/vars.scss';
-@import './utils/reset.scss';
-@import './utils/mixins.scss';
+@import "./utils/fonts.scss";
+@import "./utils/vars.scss";
+@import "./utils/reset.scss";
+@import "./utils/mixins.scss";
 
 body {
+    font-family: $default-font;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.h-28b,
+.h-44b,
+.h-16b {
+    font-family: $default-font;
+}
+
+.h-44b {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.h-28b {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.h-16b {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .container {
-    max-width: fit-content;
+    max-width: $containerWidth;
 }

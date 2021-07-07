@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "medicine-web-site",
   "version": "1.0.0",
-  "description": "webpack-template",
+  "description": "pet project",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
